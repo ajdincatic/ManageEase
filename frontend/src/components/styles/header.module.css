@@ -1,0 +1,18 @@
+.navbar{
+    box-shadow: 0px 1px 10px #d6d6d6;
+    padding: 20px 0 !important;
+}
+
+.navItemSpacer{
+    border-right: 3px solid #A6CE39;
+    margin: 0 15px;
+}
+
+.navItem{
+    border-bottom: 1px solid transparent
+}
+
+.navItem:hover{
+    border-bottom: 3px solid #A6CE39;
+    transition: .2s ease;
+}

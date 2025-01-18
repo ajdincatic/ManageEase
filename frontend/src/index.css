@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f3f4 !important;
+}
+
+.box {
+  float: left;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 15px;
+  clear: both;
+}
+
+.color-qsd{
+  color: #A6CE39 !important;
+}
+
+.bg-color-qsd{
+  background-color: #A6CE39 !important;
+  color: #fff !important;
+}
+
+.bg-danger-custom td{
+  color: #fff !important;
+  background-color: #ec6363 !important;
+}
+
+.bg-success-custom td{
+  color: #fff !important;
+  background-color: 	#35a16f !important;
+}
+
+.bg-upcoming-custom{
+  background-color: 	grey !important;
+}
+
+.my-dropdown-button button {
+  width: 100% !important;
+}
+
+.my-button button {
+  width: 100% !important;
+}
+
+table {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  table {
+    text-align: left;
+  }
+
+  table tbody tr td button {
+    width: 100% !important;
+  }
+
+  /* calendar */
+  table.fc-scrollgrid td {
+    text-align: left;
+    font-size: 10px !important;
+  }
+
+  .fc-event-main{ 
+    overflow: hidden;
+  }
+
+  .fc-media-screen{
+    min-height: 800px;
+  }
+
+  .fc-toolbar-title{
+    font-size: 22px !important;
+  }
+
+  .fc-toolbar-chunk{
+    text-align: right;
+    margin-top: 3px;
+  }
+
+  .fc-toolbar-title{
+    text-align: left;
+  }
+}
