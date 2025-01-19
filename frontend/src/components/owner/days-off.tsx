@@ -97,7 +97,7 @@ export const DaysOff = () => {
             <Col className="mb-sm-3" lg={4} md={12}>
               <h3>
                 <Link className="me-2" to={routes.HOME}>
-                  <IoIosArrowRoundBack className="color-qsd" />
+                  <IoIosArrowRoundBack className="color-main" />
                 </Link>
                 Days Off
               </h3>

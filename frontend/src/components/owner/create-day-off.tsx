@@ -218,7 +218,7 @@ export const CreateDayOff = () => {
           <div className="wrapper mb-5 d-flex justify-content-between">
             <h3>
               <Link className="me-2" to={routes.HOME}>
-                <IoIosArrowRoundBack className="color-qsd" />
+                <IoIosArrowRoundBack className="color-main" />
               </Link>
               Create day off for user
             </h3>
@@ -244,7 +244,7 @@ export const CreateDayOff = () => {
                 DayOffType.SICK_LEAVE,
                 DayOffType.PAID_LEAVE,
                 DayOffType.UNPAID_LEAVE,
-                DayOffType.PAID_LEAVE_FROM_ManageEase,
+                DayOffType.PAID_LEAVE_FROM_COMPANY,
               ]}
             />
 

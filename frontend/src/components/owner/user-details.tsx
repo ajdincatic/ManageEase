@@ -77,7 +77,7 @@ export const UserDetailsModal = () => {
               <Col sm={12} md={6}>
                 <h2>
                   <Link className="me-2" to={routes.USERS}>
-                    <IoIosArrowRoundBack className="color-qsd" />
+                    <IoIosArrowRoundBack className="color-main" />
                   </Link>
                   {selectedUser?.firstName} {selectedUser?.lastName}
                 </h2>

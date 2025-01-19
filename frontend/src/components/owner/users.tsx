@@ -80,7 +80,7 @@ export const Users = () => {
             <Col className="mb-sm-3" md={12} lg={4}>
               <h3>
                 <Link className="me-2" to={routes.HOME}>
-                  <IoIosArrowRoundBack className="color-qsd" />
+                  <IoIosArrowRoundBack className="color-main" />
                 </Link>
                 Users
               </h3>

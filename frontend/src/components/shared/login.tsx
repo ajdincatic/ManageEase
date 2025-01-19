@@ -83,7 +83,7 @@ export const Login = () => {
         <>
           <Container className={styles.container}>
             <div className={styles.loginWrapper}>
-              <Image className={styles.img} fluid src="/small-logo.png"></Image>
+              <Image className={styles.img} fluid src="/logo.svg"></Image>
               <Form className={styles.form} onSubmit={handleSubmit}>
                 <CustomInput
                   inputType={InputTypes.TEXT}
@@ -120,9 +120,7 @@ export const Login = () => {
                   </Alert>
                 )}
               </Form>
-              <p className={styles.p}>
-                Copyright &#169; ManageEase
-              </p>
+              <p className={styles.p}>Copyright &#169; ManageEase</p>
             </div>
           </Container>
         </>

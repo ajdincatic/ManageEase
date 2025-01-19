@@ -119,7 +119,7 @@ export const ChangePassword = () => {
           <div className="wrapper mb-5 d-flex justify-content-between">
             <h3>
               <Link className="me-2" to={routes.HOME}>
-                <IoIosArrowRoundBack className="color-qsd" />
+                <IoIosArrowRoundBack className="color-main" />
               </Link>
               Change Password
             </h3>

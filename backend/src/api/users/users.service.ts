@@ -260,7 +260,7 @@ export class UsersService {
     user.numberOfUsedPaidLeaveFromManageEaseDays =
       await this._daysOffService.getNumberOfDayOffsByUserAndType(
         user,
-        DayOffType.PAID_LEAVE_FROM_ManageEase,
+        DayOffType.PAID_LEAVE_FROM_COMPANY,
       );
     user.numberOfUsedUnpaidLeaveDays =
       await this._daysOffService.getNumberOfDayOffsByUserAndType(

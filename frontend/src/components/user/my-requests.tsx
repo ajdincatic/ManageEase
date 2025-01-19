@@ -59,7 +59,7 @@ export const MyRequests = () => {
             <Col className="mb-sm-3" sm={12} md={6}>
               <h3>
                 <Link className="me-2" to={routes.HOME}>
-                  <IoIosArrowRoundBack className="color-qsd" />
+                  <IoIosArrowRoundBack className="color-main" />
                 </Link>
                 My day off requests
               </h3>
